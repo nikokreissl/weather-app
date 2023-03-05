@@ -1,0 +1,12 @@
+.activity {
+  background-color: gray;
+  padding: 10px;
+  color: white;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.remove-icon {
+  height: 20px;
+}
