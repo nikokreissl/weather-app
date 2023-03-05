@@ -20,12 +20,6 @@ export default function Main() {
       id: uid(),
     };
     setActivities([newActivity, ...activities]);
-    // const newActivities = [newActivity, ...activities];
-    // setActivities(
-    //   newActivities.filter(
-    //     (activity) => activity.isForGoodWeather === isGoodWeather
-    //   )
-    // );
   }
 
   function handleDeleteActivity(id) {
